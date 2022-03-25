@@ -99,6 +99,8 @@ header .navigation li a {
 
 .content .textbox p {
     color: #fff;
+    padding: 0px;
+    font-size: 1em;
 }
 
 .content .textbox a {
@@ -175,6 +177,7 @@ header .navigation li a {
    position: absolute;
    bottom: 0;
    max-height: 100%;
+   
   }
 
 .content .imgbox {
@@ -209,7 +212,7 @@ header .navigation li a {
         padding: 40px;
     }
 
-    header h1 {
+    header h2 {
         font-size: 2em;
         font-family: cursive;
         color: white;
@@ -293,4 +296,22 @@ header .navigation li a {
         background-position: center;
         position: fixed;
     }
+
+ 
+}
+
+@media (max-width:360px) {
+    .content .textbox h2 {
+        color: #fff;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        line-height: 1.2em;
+        font-weight: 700;
+    }
+    
+    .content .textbox p {
+        color: #fff;
+        padding: 0px;
+        font-size: 0.8em;
+        width: 100%;
 }
