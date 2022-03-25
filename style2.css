@@ -185,3 +185,89 @@ header .navigation li a {
     max-width: 350px;
 }
 
+
+@media  (max-width:1000px) {
+    
+
+    header {
+        padding: 40px;
+    }
+
+
+    section {
+        padding: 150px 40px;
+    }
+ 
+    .sci {
+        left: 40px;
+    }
+
+    .content {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .content .textbox {
+        padding: 0px;
+    }
+
+    .content .textbox h2 {
+        font-size: 2.5em;
+    }
+
+    .content .textbox,
+    .content .imgbox
+
+    {
+        max-width: 100%;
+    }
+
+    .swiper-slide {
+        height: 300px;
+    }
+
+    header .navigation {
+        display: none;
+    }
+
+    header .navigation.active {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #e51e2a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+
+    }
+
+    header .navigation li a {
+        margin: 10px;
+        font-weight: 300;
+        font-size: 1.5em;
+    }
+
+    .toggle {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        background-image: url(menu.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        z-index: 10000;
+    }
+
+    .toggle.active {
+        background-image: url(close.png);
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: fixed;
+    }
+}
