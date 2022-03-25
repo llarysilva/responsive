@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9193324559.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>   
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href=""><img src="Logo-duplo-Coca-Cola-PNG.png" class="logo"></a>
+            <div class="toggle" onclick="toggleMenu()"></div>
+            <ul class="navigation">
+                <li><a href="">Home</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">What's New</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>Taste the Feeling</h2>
+                <p>Lorem, isicing elit. Tenetur molestiae laudantium obcaecati commodi expedita perferendis dicta libero fuga consequatur at? Assumenda sapiente, obcaecati qui rerum quae impedit necessitatibus dolor eaque nsequatur at? Assumenda sapiente, obcaecati qui rerum quae impedit necessitatibus dolor eaque?</p>
+                <a href="">Learn More</a>
+            </div>
+            <div class="imgbox">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="coca.webp" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="coca.webp" />
+                          </div><div class="swiper-slide">
+                            <img src="cocca.png" />
+                          </div><div class="swiper-slide">
+                            <img src="coca-cola-sombra-02.png" />
+                          </div><div class="swiper-slide">
+                            <img src="coca.webp" />
+                          </div>
+                     
+                    </div>
+            </div>
+        </div>
+        <ul class="sci">
+            <li><a href=""><i class="fab fa-facebook"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </section>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 200,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          loop: true,
+        });
+        
+        function toggleMenu() {
+          const menuToggle = document.querySelector('.toggle');
+          const navigation = document.querySelector('.navigation')
+          menuToggle.classList.toggle('active')
+          navigation.classList.toggle('active')
+
+        }
+
+      </script>
+</body>
+</html>
