@@ -118,6 +118,7 @@
         display: block;
         align-items: center;
         border: solid 1px black;
+        padding: 1px;
     }
     
     .bloco-one p {
