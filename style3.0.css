@@ -1,0 +1,172 @@
+@charset 'utf-8';
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    background-color: rgb(51, 99, 62) ;
+    width: 100%;
+    position: fixed;
+    
+}
+
+#check {
+    display: none;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.logo a {
+    color: white;
+}
+
+.logo a:hover {
+    background-color: transparent;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white ;
+    font-size: 17px;
+    border-radius: 3px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover {
+    background-color: #0e3519ec;
+    transition: all .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+main {
+    height: 100vh;
+    
+    background-position-x: center ;
+    background-repeat: no-repeat;
+    background-color: rgba(11, 53, 9, 0.24) ;
+    background-attachment: fixed;
+   
+
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.img-line img{
+
+    width: 125%;
+}
+
+.text-texto {
+   padding: 80px 0 0 0 ;
+   margin-left: 5%;
+   
+}
+
+.text-texto h1 {
+    color: rgb(24, 65, 38);
+    font-size: 3em;
+    width: 100%;
+
+}
+
+.text-texto p {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    padding: 150px 100px;
+}
+
+.bloco-one {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: solid 1px black;
+}
+
+.bloco-one p {
+    width: 100%;
+}
+
+.bloco-one h1 {
+    width: 100%;
+}
+
+.bloco-one img {
+    width: 100%;
+    height: 180px;
+}
+
+.bloco-titulo {
+    margin: 10px;
+}
+
+.conteudo {
+    width: 1100px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.bloco-two {
+    width: 300px;
+    border: solid 1px black;
+    padding: 20px;
+    margin: 30px;
+}
+
+.bloco-two img {
+    width: 100%;
+    align-items: center;
+    
+}
+
+.bloco-two span {
+    font-size: 0.7em;
+    color: green;
+}
+
+.bloco-two-conteudo {
+    display: flex;
+}
+
+.bloco-two  p {
+    font-size: 0.7em;
+}
+
+

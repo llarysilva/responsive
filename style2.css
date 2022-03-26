@@ -213,7 +213,7 @@ header .navigation li a {
     }
 
     header h2 {
-        font-size: 2em;
+        font-size: 1.8em;
         font-family: cursive;
         color: white;
     }
@@ -248,13 +248,23 @@ header .navigation li a {
 
    
 
-    .swiper-slide {
+    .swiper-slide img {
         height: 300px;
+        width: 100px;
+    }
+
+    .content .textbox h2 {
+        color: #fff;
+        font-size: 1.9em;
+        margin-bottom: 10px;
+        line-height: 1.2em;
+        font-weight: 700;
     }
 
     header .navigation {
         display: none;
     }
+
 
     header .navigation.active {
         position: fixed;
