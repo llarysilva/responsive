@@ -58,7 +58,7 @@
     .img-line img{
 
         width: 100%;
-        height: 300px;
+        height: 280px;
     
     }
     
@@ -84,8 +84,96 @@
     
     .flex {
         display: block;
-        padding: 70px 0px;
     }
+
+    .img-line img{
+
+        width: 100%;
+    }
+    
+    .text-texto {
+       padding: 80px 0 0 0 ;
+       margin-left: 5%;
+       
+    }
+    
+    .text-texto h1 {
+        color: rgb(24, 65, 38);
+        font-size: 2em;
+        width: 100%;
+    
+    }
+    
+    .text-texto p {
+        width: 100%;
+    }
+    
+    .flex {
+        display: block;
+        padding: 40px 10px;
+    }
+    
+    .bloco-one {
+        width: 90%;
+        display: block;
+        align-items: center;
+        border: solid 1px black;
+    }
+    
+    .bloco-one p {
+        width: 100%;
+    }
+    
+    .bloco-one h1 {
+        width: 100%;
+    }
+    
+    .bloco-one img {
+        width: 100%;
+        height: 180px;
+    }
+    
+    .bloco-titulo {
+        margin: 10px;
+    }
+    
+    
+
+    .bloco-two {
+        width: 90%;
+        border: solid 1px black;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .bloco-two img {
+        width: 100%;
+        align-items: center;
+        
+    }
+    
+    .bloco-two span {
+        font-size: 0.7em;
+        color: green;
+    }
+    
+    .bloco-two-conteudo {
+        display: block;
+        
+    }
+    
+    .bloco-two  p {
+        font-size: 0.7em;
+    }
+
+    .conteudo {
+        width: 98%;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    
+    
     
 }
 
