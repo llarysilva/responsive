@@ -184,7 +184,7 @@ header .navigation li a {
     width: 500px;
     display: flex;
     top: 200px;
-    justify-content: flex-end;
+    z
 }
 
 .content .imgbox img {

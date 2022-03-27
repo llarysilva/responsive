@@ -9,7 +9,7 @@
     font-family: 'Poppins', sans-serif;
 }
 nav {
-    background-color: rgb(51, 99, 62) ;
+    background-color: rgb(41, 112, 58) ;
     width: 100%;
     position: fixed;
     
@@ -79,7 +79,7 @@ main {
     
     background-position-x: center ;
     background-repeat: no-repeat;
-    background-color: rgba(37, 95, 34, 0.13) ;
+    background-color: rgba(37, 95, 34, 0.247) ;
     background-attachment: fixed;
    
 
@@ -179,8 +179,7 @@ a {
     width: 95%;
 }
 .slide-bar {
-    display: flex;
-   
+    display: flex; 
     left: 0;
 }
 
@@ -188,9 +187,38 @@ a {
 
 .slide-bar > div {
     margin-bottom: 10px;
+    
   margin: 9px;
 }
 
 .slide-bar img {
     width: 195px;
+    height: 150px;
+    border: solid 1px black;
+}
+
+.slide-bar a:hover {
+    background-color: transparent;
+    letter-spacing: 1px;
+}
+
+.slide-bar img:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+
+.slide-bar a{
+    transition: all 0.5s ease;
+    color: black;
+
+}
+
+.slide-bar p {
+    text-align: center;
+}
+
+
+.titulo2 h1 {
+    font-weight: 100;
+    padding: 10px;
 }
