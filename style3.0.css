@@ -70,8 +70,12 @@ a.active,a:hover {
     display: none;
 }
 
+body {
+    background-color: rgb(255, 255, 255);
+}
+
 main {
-    height: 100vh;
+    
     
     background-position-x: center ;
     background-repeat: no-repeat;
@@ -170,4 +174,23 @@ a {
     font-size: 0.7em;
 }
 
+.grid {
+    
+    width: 95%;
+}
+.slide-bar {
+    display: flex;
+   
+    left: 0;
+}
 
+
+
+.slide-bar > div {
+    margin-bottom: 10px;
+  margin: 9px;
+}
+
+.slide-bar img {
+    width: 195px;
+}

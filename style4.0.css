@@ -159,7 +159,9 @@
     }
     
     .bloco-two-conteudo {
+        
         display: block;
+        
         
     }
     
@@ -182,6 +184,20 @@
     
     main {
         height: 170vh;
+    }
+}
+
+@media (max-width:900px) {
+   
+
+    .slide-bar {
+        display: flex;
+        overflow: scroll;
+    }
+
+    .slide-bar > div {
+        flex: 1 0 200px;
+        margin: 0 10px;
     }
 }
 
