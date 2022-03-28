@@ -199,6 +199,24 @@
         flex: 1 0 200px;
         margin: 0 10px;
     }
+
+    .titulo2 h1{
+
+        font-size: 1em;
+
+    }
+
+    .ensino-etapas {
+        display: flex;
+        display: flex;
+        overflow: scroll;
+    }
+
+    .bloco-extracurriculares {
+    
+        
+        overflow: scroll;
+    }
 }
 
 
